@@ -113,13 +113,11 @@ async function listVirtualEnvContents() {
 //         return directoryContents;
 //     } catch (err) {
 //         console.error('Errore:', err);
-//         throw err; // Gestisci l'errore come preferisci
+//         throw err; 
 //     }
 // }
 
-// listVirtualEnvContents().then(contents => {
-//     // Qui puoi fare qualcosa con i contenuti, ad esempio inviarli come risposta HTTP
-// });
+ 
 
 
 async function listDirectoryContents() {
