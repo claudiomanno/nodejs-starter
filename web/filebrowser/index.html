@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>File Browser</title>
+    <script src="./js/elenco.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav>
+        <div id="alert" class="alert" style="display: none;">
+            <div id="alert1">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="panel" id="panelA">
+                <h1 class="clah1" >Elenco dei File</h1> 
+                <table class="table-list">
+                    <thead>
+                        <tr>
+                            <th style="width: 63%;">Nome</th>
+                            <th style="width: 13%;">Tipo</th>
+                            <th style="width: 23%;">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenutolist">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="panel" id="panelB">
+                <h1 class="clah1" >Dettagli File</h1> 
+                <table class="table-custom">
+                    <thead>
+                        <tr>
+                            <th style="width: 63%;">Nome</th>
+                            <th style="width: 13%;">Tipo</th>
+                            <th style="width: 23%;">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenuto">
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="panel" id="panelC" >
+            <button id="toggleButton" class="btn-custom" style="margin: 4px;" onclick="togglePanels()">Apri Panello</button>
+            <span>Visualizza dettaglio file</span>
+            <div id="dettaglio">        
+            </div>             
+        </div>
+    </div>
+    <script>
+        
+        
+    </script>
+</body>
+</html>
